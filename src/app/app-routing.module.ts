@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
+import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 
 const routes: Routes = [
   {path:"inicio", component: InicioComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'ofertas',
     loadChildren: ()=> import('./pages/ofertas/ofertas.module').then(m=> m.OfertasModule)
   },
+  {path:"usuarios", component: UsuariosComponent},
   {path:"**", redirectTo: "inicio"},
 
 ];

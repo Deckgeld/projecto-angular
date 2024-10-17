@@ -12,6 +12,7 @@ export class MenuComponent implements OnInit{
     {name: "Contacto", path: "/contacto"},
     {name: "Mensajes", path: "/mensajes"},
     {name: "Ofertas", path: "/ofertas"},
+    {name: "Usuarios", path: "/usuarios"},
   ]
   
   constructor(){}

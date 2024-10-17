@@ -8,6 +8,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { provideHttpClient } from '@angular/common/http';
+import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { provideHttpClient } from '@angular/common/http';
     NosotrosComponent,
     ContactoComponent,
     InicioComponent,
-    MenuComponent
+    MenuComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule,
